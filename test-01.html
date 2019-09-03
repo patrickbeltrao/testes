@@ -24,6 +24,7 @@
             width: 100%;
             height: 50px;
             background: rgba(0, 0, 0, .4);
+            overflow: hidden;
 
         }
 
@@ -46,21 +47,46 @@
             text-decoration: none;
             text-transform: uppercase;
             letter-spacing: 2px;
+            transition: all .5s ease-in-out;
+            margin-right: 5px;
+            
 
         }
 
         nav ul li a:hover{
             background: rgba(0, 0, 0, .5);
-            color: cyan;
+            color: red;
+            transform: translateY(2px);
+            font-size: 19px;
+
         }
 
         .box{
-            width: 15px;
-            height: 15px;
-            background: red;
-            padding: 10px;
+            width: 300px;
+            height: 50px;
+            box-shadow: 3px 2px 5px black;
+            margin: 250px auto;
+            transition: all .5s ease-in-out;
             
         }
+
+        .box h1{
+            text-align: center;
+            padding: 0 10px ;
+            font-size: 40px;
+        }
+
+        .box:hover{
+            opacity: 0;
+        }
+        
+
+
+
+
+        
+
+
 
     
     
@@ -81,18 +107,9 @@
         </nav>
 
 
-        <div class="box-container">
+        <div class="box">
 
-            <div class="box">W</div>
-            <div class="box">e</div>
-            <div class="box">b</div>
-            <div class="box">-</div>
-            <div class="box">D</div>
-            <div class="box">e</div>
-            <div class="box">s</div>
-            <div class="box">i</div>
-            <div class="box">g</div>
-            <div class="box">n</div>
+            <h1>Web Design</h1>
 
         </div>
 
