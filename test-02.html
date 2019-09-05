@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iluminação nas letras</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .div-container{
+            background: black;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        h1{
+            text-transform: uppercase;
+            font-size: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            
+           
+        }
+
+        @keyframes FadeIn {
+            0%{
+                opacity: 0;
+                
+            }
+
+            50%{
+                color: red;
+            }
+
+            100%{
+                opacity: 2;
+                color: blue;
+            }
+            
+        }
+    
+
+        .letras:nth-child(1){
+            animation: FadeIn .6s ease-in;  
+            animation-iteration-count: infinite; 
+        }
+        .letras:nth-child(2){
+            animation: FadeIn .6s ease-in;
+            animation-delay: .06s;   
+            animation-iteration-count: infinite; 
+        }
+        .letras:nth-child(3){
+            animation: FadeIn .6s ease-in;   
+            animation-delay: .12s;  
+            animation-iteration-count: infinite; 
+        }
+        
+        .letras:nth-child(4){
+            animation: FadeIn .6s ease; 
+            animation-delay: .18s;    
+            animation-iteration-count: infinite; 
+        }
+
+        .letras:nth-child(5){
+            animation: FadeIn .6s ease; 
+            animation-delay: .24s;    
+            animation-iteration-count: infinite; 
+        }
+        .letras:nth-child(6){
+            animation: FadeIn .6s ease;
+            animation-delay: .30s;     
+            animation-iteration-count: infinite; 
+        }
+        .letras:nth-child(7){
+            animation: FadeIn .6s ease;
+            animation-delay: .36s;     
+            animation-iteration-count: infinite; 
+        }
+        .letras:nth-child(8){
+            animation: FadeIn .6s ease; 
+            animation-delay: .42s;    
+            animation-iteration-count: infinite; 
+        }
+        .letras:nth-child(9){
+            animation: FadeIn .6s ease;
+            animation-delay: .48s;   
+            animation-iteration-count: infinite;   
+        }
+        .letras:nth-child(10){
+            animation: FadeIn .6s ease;
+            animation-delay: .54s; 
+            animation-iteration-count: infinite;     
+        }
+        .letras:nth-child(11){
+            animation: FadeIn .6s ease; 
+            animation-delay: .60s;  
+            animation-iteration-count: infinite;   
+        }
+        .letras:nth-child(12){
+            animation: FadeIn .6s ease; 
+            animation-delay: .66s;  
+            animation-iteration-count: infinite;   
+        }
+
+       
+    
+    
+    </style>
+
+</head>
+<body>
+
+    <div class="div-container">
+
+        <h1>
+            <span class="letras">W</span>
+            <span class="letras">e</span>
+            <span class="letras">b</span>
+            <span class="letras">-</span>
+            <span class="letras">D</span>
+            <span class="letras">e</span>
+            <span class="letras">s</span>
+            <span class="letras">i</span>
+            <span class="letras">g</span>
+            <span class="letras">n</span>
+            <span class="letras">e</span>
+            <span class="letras">r</span>
+
+        </h1>
+
+    </div>
+    
+</body>
+</html>
