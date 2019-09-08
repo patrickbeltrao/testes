@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-brs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        
+        .lock{
+            width: 100px;
+            height: 80px;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, gold, orange);
+            position: relative;
+            margin-top: 100px;
+            line-height: 80px;
+            text-align: center;
+        }
+
+        .lock::before{
+            content: " ";
+            display: block;
+            width: 60px;
+            border-radius: 35px 35px 0 0;
+            border: 20px solid #aaa;
+            position: absolute;
+            top: -60px;
+            left: 15px;
+        }
+
+        .key-hole::before{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: #000;
+            
+        }
+    
+        .key-hole::before{
+            content: " ";
+            display: block;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-bottom: 30px solid #000;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="lock">
+        <div class="key-hole"></div>
+    </div>
+
+</body>
+</html>
