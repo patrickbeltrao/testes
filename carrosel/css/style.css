@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 100vw;
+    height: 70vh;
+    background: #7fffd4;
+    margin-top: 10%;
+    position: relative;
+    
+}
+
+img{
+    width: 65%;
+    height: 90%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
+    
+}
+
+.icon-circle-right{
+    font-size: 70px;
+    color: #008080;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-5%, -50%);
+    
+}
+
+.icon-circle-right:hover{
+    color: #ffffff;
+}
+
+.icon-circle-left:hover{
+    color: #ffffff;
+}
+
+.icon-circle-left{
+    font-size: 70px;
+    color: #008080;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-5%, -50%);
+}
